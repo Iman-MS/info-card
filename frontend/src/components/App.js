@@ -8,7 +8,7 @@ import NewCard from "../pages/NewCard";
 import OnelinkCard from "../pages/OnelinkCard";
 import SignIn from "../pages/SignIn";
 import SignUp from "../pages/SignUp";
-import { createMuiTheme, responsiveFontSizes } from "@material-ui/core/styles";
+import { createTheme, responsiveFontSizes } from "@material-ui/core/styles";
 import { ThemeProvider } from "@material-ui/styles";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 
@@ -17,7 +17,7 @@ import { createBrowserHistory } from "history";
 
 import axios from "axios";
 
-let theme = createMuiTheme({
+let theme = createTheme({
   typography: {
     fontFamily: [
       '"Poppins"',

@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { getCardInfo } from "../actions/cardActions";
 import { makeStyles } from "@material-ui/core/styles";
-import { createMuiTheme } from "@material-ui/core/styles";
+import { createTheme } from "@material-ui/core/styles";
 import { ThemeProvider } from "@material-ui/styles";
 import WhatsAppIcon from "@material-ui/icons/WhatsApp";
 import TelegramIcon from "@material-ui/icons/Telegram";
@@ -59,7 +59,7 @@ const useStyles = makeStyles({
   },
 });
 
-const socialMediaIcons = createMuiTheme({
+const socialMediaIcons = createTheme({
   palette: {
     primary: {
       main: "#0088cc",
@@ -126,7 +126,7 @@ function OnelinkCard({ match }) {
       <Grid
         container
         direction="column"
-        justify="center"
+        justifyContent="center"
         alignItems="center"
         style={{
           backgroundColor: "#f7f7f7",
@@ -178,7 +178,7 @@ function OnelinkCard({ match }) {
               item
               container
               direction="row"
-              justify="center"
+              justifyContent="center"
               alignItems="center"
               xs={12}
               style={{ marginBottom: ".9rem" }}
@@ -220,7 +220,7 @@ function OnelinkCard({ match }) {
               item
               container
               direction="row"
-              justify="flex-start"
+              justifyContent="flex-start"
               alignItems="center"
               xs={12}
               style={{ margin: ".2rem auto .9rem .5rem" }}
@@ -240,7 +240,7 @@ function OnelinkCard({ match }) {
               item
               container
               direction="row"
-              justify="flex-start"
+              justifyContent="flex-start"
               alignItems="center"
               xs={12}
               style={{ margin: "0 auto .8rem .5rem" }}
@@ -274,7 +274,7 @@ function OnelinkCard({ match }) {
               item
               container
               direction="row"
-              justify="center"
+              justifyContent="center"
               alignItems="center"
               xs={12}
               style={{ marginBottom: ".5rem" }}
@@ -329,7 +329,7 @@ function OnelinkCard({ match }) {
                   item
                   container
                   direction="row"
-                  justify="flex-start"
+                  justifyContent="flex-start"
                   alignItems="center"
                   xs={12}
                   style={{ margin: "0 auto .6rem .5rem" }}
@@ -385,7 +385,7 @@ function OnelinkCard({ match }) {
                 item
                 container
                 direction="row"
-                justify="center"
+                justifyContent="center"
                 alignItems="center"
                 xs={12}
                 style={{ marginBottom: ".9rem", marginTop: ".5rem" }}
@@ -417,7 +417,7 @@ function OnelinkCard({ match }) {
       <Grid
         container
         direction="column"
-        justify="center"
+        justifyContent="center"
         alignItems="center"
         style={{ backgroundColor: "#f7f7f7", height: "100vh" }}
       >
@@ -432,7 +432,7 @@ function OnelinkCard({ match }) {
       <Grid
         container
         direction="column"
-        justify="center"
+        justifyContent="center"
         alignItems="center"
         style={{ backgroundColor: "#f7f7f7", height: "100vh" }}
       >

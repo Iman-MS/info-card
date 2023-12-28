@@ -27,7 +27,7 @@ function LandingPage() {
         xs={12}
         md={7}
         direction="column"
-        justify="center"
+        justifyContent="center"
         alignItems="flex-start"
       >
         <Box fontWeight={300} pl={5} textAlign="left" py={3} mr={2}>
@@ -74,7 +74,7 @@ function LandingPage() {
         xs={12}
         md={5}
         direction="column"
-        justify="center"
+        justifyContent="center"
         alignItems="center"
       >
         <Box

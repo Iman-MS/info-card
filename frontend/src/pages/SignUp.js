@@ -186,7 +186,7 @@ export default function SignUp() {
               <Grid
                 container
                 direction="column"
-                justify="center"
+                justifyContent="center"
                 alignItems="center"
                 style={{ marginBottom: ".5rem" }}
               >
@@ -204,13 +204,13 @@ export default function SignUp() {
               <Grid
                 container
                 direction="column"
-                justify="center"
+                justifyContent="center"
                 alignItems="center"
               >
                 <CircularProgress></CircularProgress>
               </Grid>
             )}
-            <Grid container justify="center">
+            <Grid container justifyContent="center">
               <Grid item>
                 <Button
                   variant="text"

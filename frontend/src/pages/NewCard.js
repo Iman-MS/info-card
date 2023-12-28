@@ -222,7 +222,7 @@ function NewCard() {
   return (
     <Grid
       container
-      justify="flex-start"
+      justifyContent="flex-start"
       alignItems="center"
       direction="column"
       className={classes.dashboardPage}
@@ -273,7 +273,7 @@ function NewCard() {
       <Grid
         container
         direction="row"
-        justify="flex-start"
+        justifyContent="flex-start"
         alignItems="center"
         className={classes.root}
       >
@@ -288,7 +288,12 @@ function NewCard() {
           Create New Card
         </Typography>
       </Grid>
-      <Grid container direction="row" justify="center" alignItems="center">
+      <Grid
+        container
+        direction="row"
+        justifyContent="center"
+        alignItems="center"
+      >
         <Avatar
           src={image}
           style={{
@@ -339,7 +344,7 @@ function NewCard() {
           spacing={3}
           container
           direction="row"
-          justify="center"
+          justifyContent="center"
           alignItems="center"
           style={{ padding: "1.2rem 1rem 2rem 1rem", maxWidth: "90vw" }}
         >
@@ -668,7 +673,7 @@ function NewCard() {
               id="linkDescription"
             />
           </Grid>
-          <Grid item container xs={12} sm={2} justify="center">
+          <Grid item container xs={12} sm={2} justifyContent="center">
             <Button
               color="secondary"
               variant="outlined"
@@ -726,7 +731,7 @@ function NewCard() {
               id="locationLink"
             />
           </Grid>
-          <Grid item container justify="center" xs={12}>
+          <Grid item container justifyContent="center" xs={12}>
             <Button
               type="submit"
               size="large"

@@ -463,8 +463,8 @@ function EditCard({ match }) {
 							type="text"
 							id="description"
 							multiline
-							rows={2}
-							rowsMax={4}
+							minRows={2}
+							maxRows={4}
 						/>
 					</Grid>
 					<Grid item xs={12}>

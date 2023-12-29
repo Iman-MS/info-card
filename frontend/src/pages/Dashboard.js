@@ -31,8 +31,7 @@ const useStyles = makeStyles((theme) => ({
 
   dashboardPage: {
     flexGrow: 1,
-    background:
-      "linear-gradient(90deg, rgba(164, 174, 223, 1) 9%, rgba(255, 112, 160, 1) 100%)",
+    background: "linear-gradient(to right, #a1ffce, #faffd1)",
     minHeight: "100vh",
   },
 }));

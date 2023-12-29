@@ -36,6 +36,14 @@ let theme = createTheme({
       textTransform: "none",
     },
   },
+  palette: {
+    primary: {
+      main: "#00A34F",
+    },
+    secondary: {
+      main: "#A2B800",
+    },
+  },
 });
 
 theme = responsiveFontSizes(theme);

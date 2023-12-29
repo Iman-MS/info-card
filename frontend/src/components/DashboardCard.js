@@ -52,9 +52,8 @@ function DashboardCard({
               className={classes.large}
               style={{
                 boxShadow: "0 0 25px rgb(0 0 0 / 22%)",
-                color: "#3f51b5",
-                background:
-                  "linear-gradient(90deg, rgba(164, 174, 223, 0.9) 9%, rgba(255, 112, 160, 0.6) 100%)",
+                color: "#00A34F",
+                background: "linear-gradient(to right, #a1ffce, #faffd1)",
                 marginRight: "1.5rem",
                 width: 100,
                 height: 100,

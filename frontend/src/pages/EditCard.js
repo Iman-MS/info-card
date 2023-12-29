@@ -36,8 +36,7 @@ const useStyles = makeStyles((theme) => ({
 
   dashboardPage: {
     flexGrow: 1,
-    background:
-      "linear-gradient(90deg, rgba(164, 174, 223, 0.9) 9%, rgba(255, 112, 160, 0.6) 100%)",
+    background: "linear-gradient(to right, #a1ffce, #faffd1)",
     minHeight: "100vh",
   },
 }));
@@ -360,8 +359,8 @@ function EditCard({ match }) {
           variant="h3"
           style={{
             fontWeight: "200",
-            color: "#115293",
-            borderBottom: "2px solid #f500578c",
+            color: "#00A34F",
+            borderBottom: "2px solid #A2B800",
           }}
         >
           Create New Card
@@ -377,9 +376,8 @@ function EditCard({ match }) {
           src={image}
           style={{
             boxShadow: "0 0 25px rgb(0 0 0 / 22%)",
-            color: "#3f51b5",
-            background:
-              "linear-gradient(90deg, rgba(164, 174, 223, 0.9) 9%, rgba(255, 112, 160, 0.6) 100%)",
+            color: "#00A34F",
+            background: "linear-gradient(to right, #a1ffce, #faffd1)",
             marginRight: "1.5rem",
             width: 100,
             height: 100,

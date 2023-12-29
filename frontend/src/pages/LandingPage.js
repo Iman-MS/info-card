@@ -11,8 +11,7 @@ import mockupImg from "../static/images/mockup_blue.png";
 const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
-    background:
-      "linear-gradient(90deg, rgba(164, 174, 223, 1) 9%, rgba(255, 112, 160, 1) 100%)",
+    background: "linear-gradient(to right, #a1ffce, #faffd1)",
   },
 }));
 
@@ -44,17 +43,6 @@ function LandingPage() {
           </Typography>
         </Box>
         <Box display="flex" flexDirection="row" pb={3} alignSelf="center">
-          <Button
-            variant="contained"
-            color="secondary"
-            size="large"
-            style={{
-              margin: "0 .5rem",
-            }}
-            href="https://www.linkedin.com/feed/update/urn:li:activity:6761314380282920961/"
-          >
-            Watch Demo
-          </Button>
           <Button
             variant="contained"
             color="primary"

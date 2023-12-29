@@ -1,20 +1,17 @@
 .SignUp__container {
-	min-height: 100vh;
-	display: flex;
-	align-items: center;
-	flex-direction: column;
-	justify-content: center;
-	background: rgb(164, 174, 223);
-	background: linear-gradient(
-		90deg,
-		rgba(164, 174, 223, 1) 9%,
-		rgba(255, 112, 160, 1) 100%
-	);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background: #a1ffce;
+  background: -webkit-linear-gradient(to right, #faffd1, #a1ffce);
+  background: linear-gradient(to right, #faffd1, #a1ffce);
 }
 
 input:-webkit-autofill,
 input:-webkit-autofill:hover,
 input:-webkit-autofill:focus,
 input:-webkit-autofill:active {
-	transition: background-color 5000s ease-in-out 0s;
+  transition: background-color 5000s ease-in-out 0s;
 }

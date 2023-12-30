@@ -25,9 +25,9 @@ app.use("/api/upload/", uploadRoutes);
 app.use("/uploads", express.static(path.join(__dirname, "/uploads")));
 
 if (process.env.NODE_ENV === "production") {
-  app.use(express.static(path.join("public")));
+  app.use(express.static(path.join("build")));
   app.get("*", (req, res, next) => {
-    res.sendFile(path.resolve(__dirname, "public", "index.html"));
+    res.sendFile(path.resolve(__dirname, "build", "index.html"));
   });
 }
 

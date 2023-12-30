@@ -4,9 +4,9 @@
   align-items: center;
   flex-direction: column;
   justify-content: center;
-  background: #a1ffce;
-  background: -webkit-linear-gradient(to right, #faffd1, #a1ffce);
-  background: linear-gradient(to right, #faffd1, #a1ffce);
+  background: #faffd1;
+  background: -webkit-linear-gradient(to right, #a1ffce, #faffd1);
+  background: linear-gradient(to right, #a1ffce, #faffd1);
 }
 
 .signInForm {

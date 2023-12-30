@@ -201,8 +201,8 @@ function Dashboard() {
           variant="h3"
           style={{
             fontWeight: "200",
-            color: "#115293",
-            borderBottom: "2px solid #f500578c",
+            color: "#00A34F",
+            borderBottom: "2px solid #FFAD33",
           }}
         >
           Dashboard

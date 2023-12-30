@@ -360,7 +360,7 @@ function EditCard({ match }) {
           style={{
             fontWeight: "200",
             color: "#00A34F",
-            borderBottom: "2px solid #A2B800",
+            borderBottom: "2px solid #FFAD33",
           }}
         >
           Create New Card

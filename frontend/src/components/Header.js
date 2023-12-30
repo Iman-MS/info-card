@@ -8,6 +8,7 @@ import Button from "@material-ui/core/Button";
 import { Link } from "react-router-dom";
 import { useLocation, useHistory } from "react-router-dom";
 import Box from "@material-ui/core/Box";
+import Typography from "@material-ui/core/Typography";
 
 import LogoPic from "../static/images/Logo.png";
 import "./Header.css";
@@ -77,8 +78,23 @@ function Header() {
 							OneLink
 						</Typography> */}
             <Box flexGrow={1}>
-              <Link to="/">
-                <img src={LogoPic} alt="Logo" className={"Header__logo"} />
+              <Link
+                to="/"
+                style={{
+                  display: "flex",
+                  alignItems: "center",
+                  textDecoration: "none",
+                }}
+              >
+                <img
+                  style={{ marginRight: "0.2rem" }}
+                  src={LogoPic}
+                  alt="Logo"
+                  className={"Header__logo"}
+                />
+                <Typography style={{ fontSize: "2rem" }} color="primary">
+                  InfoCard
+                </Typography>
               </Link>
             </Box>
             {userInfo && (

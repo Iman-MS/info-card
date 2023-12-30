@@ -41,7 +41,7 @@ let theme = createTheme({
       main: "#00A34F",
     },
     secondary: {
-      main: "#A2B800",
+      main: "#FFAD33",
     },
   },
 });

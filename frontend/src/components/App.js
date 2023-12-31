@@ -41,7 +41,8 @@ let theme = createTheme({
       main: "#00A34F",
     },
     secondary: {
-      main: "#FFAD33",
+      main: "#F59300",
+      contrastText: "#fff",
     },
   },
 });

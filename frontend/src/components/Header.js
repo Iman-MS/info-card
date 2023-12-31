@@ -92,7 +92,7 @@ function Header() {
                   alt="Logo"
                   className={"Header__logo"}
                 />
-                <Typography style={{ fontSize: "2rem" }} color="primary">
+                <Typography style={{ fontSize: "1.9rem" }} color="primary">
                   InfoCard
                 </Typography>
               </Link>

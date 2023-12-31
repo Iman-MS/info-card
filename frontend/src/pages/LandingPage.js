@@ -34,7 +34,7 @@ function LandingPage() {
             variant="h3"
             style={{ fontWeight: "200", color: "3f51b5" }}
           >
-            Create your digital business card with InfoCard
+            Create Your Digital Business Card
           </Typography>
         </Box>
         <Box pl={5} pb={4} mr={2} textAlign="left">

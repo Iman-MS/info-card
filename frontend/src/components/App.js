@@ -49,7 +49,7 @@ let theme = createTheme({
 theme = responsiveFontSizes(theme);
 
 function App() {
-  axios.defaults.baseURL = "http://localhost:5000";
+  // axios.defaults.baseURL = "http://localhost:5000";
 
   const history = createBrowserHistory();
 
